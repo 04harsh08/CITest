@@ -8,14 +8,12 @@ $file = $argv[6];
 $opt4 = $argv[7];
 $ci = $argv[8];
 
-$path = $argv[8]."/job/CI/ws/".$file;
-//$v1 = "67046dbd-6463-4b28-850c-17db29fe939b";
-//$v2 = "c48a8e21-786b-4301-827a-eb58fe568322";
+$path = $argv[8]."/job/Project_CI/ws/".$file;
+
 
 $url = 'http://10.187.39.62:9090/api_select/';
 $data = array('apiKey' => $apiKey, 'apiSecret' => $apiSecret, 'URL' => $path);
 
-// use key 'http' even if you send the request to https://...
 $options = array(
     'http' => array(
         'header'  => "Content-type: application/x-www-form-urlencoded\r\n",
@@ -29,7 +27,7 @@ if ($result === FALSE) { /* Handle error */ }
 
 var_dump($result);
 
-//$v2 = "c48a8e21-786b-4301-827a-eb58fe56832""";
+
 
 
 ?>
