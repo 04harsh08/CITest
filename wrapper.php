@@ -11,7 +11,7 @@ $ci = $argv[8];
 $path = $argv[8]."/job/Project_CI/ws/".$file;
 
 
-$url = 'http://10.187.39.62:9090/api_select/';
+$url = 'http://10.187.36.162:9090/api_select/';
 $data = array('apiKey' => $apiKey, 'apiSecret' => $apiSecret, 'URL' => $path);
 
 $options = array(
