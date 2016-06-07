@@ -3,15 +3,15 @@ require "net/http"
 require "uri"
 
 
-opt1 = ARGV[0]
-apiKey = ARGV[1]
-opt2 = ARGV[2]
-apiSecret = ARGV[3]
-opt3 = ARGV[4]
-file_name = ARGV[5]
-opt4 =ARGV[6]
-ci = ARGV[7]
-
+#opt1 = ARGV[0]
+#apiKey = ARGV[1]
+#opt2 = ARGV[2]
+#apiSecret = ARGV[3]
+#opt3 = ARGV[4]
+#file_name = ARGV[5]
+#opt4 =ARGV[6]
+#ci = ARGV[7]
+puts ENV['JOB_NAME']
 path = ci+"/job/CI/ws/"+file_name
 puts path
 
