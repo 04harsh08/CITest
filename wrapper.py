@@ -12,9 +12,7 @@ import os
 
 
 url = 'http://10.187.39.62:9090/api_select/'
-# path = ci+'/job/'+os.environ['JOB_NAME']+'/ws/'+file
-path = '/job/'+os.environ['JOB_NAME']+'/ws/'
-print path
+path = ci+'/job/'+os.environ['JOB_NAME']+'/ws/'+file
 values = {'apiKey' : apiKey,
           'apiSecret' : apiSecret,
           'URL' : path
