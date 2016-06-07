@@ -8,10 +8,10 @@ $file = $argv[6];
 $opt4 = $argv[7];
 $ci = $argv[8];
 
- var_dump(getenv('JOB_NAME'));
+ 
 
-$path = $argv[8]."/job/Project_CI/ws/".$file;
-
+$path = $argv[8]."/job/".getenv('JOB_NAME')."/ws/".$file;
+var_dump($path);
 
 $url = 'http://10.187.36.162:9090/api_select/';
 $data = array('apiKey' => $apiKey, 'apiSecret' => $apiSecret, 'URL' => $path);
