@@ -3,17 +3,17 @@ require "net/http"
 require "uri"
 
 
-#opt1 = ARGV[0]
-#apiKey = ARGV[1]
-#opt2 = ARGV[2]
-#apiSecret = ARGV[3]
-#opt3 = ARGV[4]
-#file_name = ARGV[5]
-#opt4 =ARGV[6]
-#ci = ARGV[7]
+opt1 = ARGV[0]
+apiKey = ARGV[1]
+opt2 = ARGV[2]
+apiSecret = ARGV[3]
+opt3 = ARGV[4]
+file_name = ARGV[5]
+opt4 =ARGV[6]
+ci = ARGV[7]
 
-path ="/job/"+ENV['JOB_NAME']+"/ws/"
-puts path
+path =ci+"/job/"+ENV['JOB_NAME']+"/ws/"+file_name
+
 
 
 uri = URI.parse("http://10.187.39.62:9090/api_select/")
