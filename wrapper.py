@@ -10,10 +10,10 @@ import os
 #opt4 = sys.argv[7]
 #ci = sys.argv[8]
 
-print os.environ['JOB_NAME']
-url = 'http://10.187.39.62:9090/api_select/'
-path = ci+'/job/CI/ws/'+file
 
+url = 'http://10.187.39.62:9090/api_select/'
+path = ci+'/job/'+os.environ['JOB_NAME']+'/ws/'+file
+print path
 values = {'apiKey' : apiKey,
           'apiSecret' : apiSecret,
           'URL' : path
