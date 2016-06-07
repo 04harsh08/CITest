@@ -11,8 +11,8 @@ require "uri"
 #file_name = ARGV[5]
 #opt4 =ARGV[6]
 #ci = ARGV[7]
-puts ENV['JOB_NAME']
-path = ci+"/job/CI/ws/"+file_name
+
+path ="/job/"+ENV['JOB_NAME']+"/ws/"
 puts path
 
 
