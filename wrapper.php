@@ -8,6 +8,8 @@ $file = $argv[6];
 $opt4 = $argv[7];
 $ci = $argv[8];
 
+echo $JOB_NAME;
+
 $path = $argv[8]."/job/Project_CI/ws/".$file;
 
 
