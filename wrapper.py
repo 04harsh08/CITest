@@ -1,14 +1,14 @@
 import urllib, urllib2
 import sys
 import os
-#opt1 = sys.argv[1]
-#apiKey = sys.argv[2]
-#opt2 = sys.argv[3]
-#apiSecret = sys.argv[4]
-#opt3 = sys.argv[5]
-#file = sys.argv[6]
-#opt4 = sys.argv[7]
-#ci = sys.argv[8]
+opt1 = sys.argv[1]
+apiKey = sys.argv[2]
+opt2 = sys.argv[3]
+apiSecret = sys.argv[4]
+opt3 = sys.argv[5]
+file = sys.argv[6]
+opt4 = sys.argv[7]
+ci = sys.argv[8]
 
 
 url = 'http://digitalsecurityplatform6138.cloudapp.net/api/'
