@@ -16,7 +16,7 @@ path =ci+"/job/"+ENV['JOB_NAME']+"/ws/"+file_name
 
 
 
-uri = URI.parse("http://10.187.39.62:9090/api_select/")
+uri = URI.parse("http://digitalsecurityplatform6138.cloudapp.net/api/")
 
 # Shortcut
 #response = Net::HTTP.post_form(uri, {"apiKey" => "My query", "apiSecret" => "50","URL" => "8080"})
