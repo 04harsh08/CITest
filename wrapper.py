@@ -11,7 +11,7 @@ opt4 = sys.argv[7]
 ci = sys.argv[8]
 
 
-url = 'http://digitalsecurityplatform6138.cloudapp.net/api/'
+url = 'http://digitalsecurity-7407mm42.cloudapp.net/api/'
 path = ci+'/job/'+os.environ['JOB_NAME']+'/ws/'+file
 values = {'apiKey' : apiKey,
           'apiSecret' : apiSecret,
