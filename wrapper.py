@@ -11,7 +11,7 @@ import os
 #ci = sys.argv[8]
 
 
-url = 'http://10.187.39.62:9090/api_select/'
+url = 'http://digitalsecurityplatform6138.cloudapp.net/api/'
 path = ci+'/job/'+os.environ['JOB_NAME']+'/ws/'+file
 values = {'apiKey' : apiKey,
           'apiSecret' : apiSecret,
