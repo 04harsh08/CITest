@@ -12,7 +12,7 @@ $ci = $argv[8];
 
 $path = $argv[8]."/job/".getenv('JOB_NAME')."/ws/".$file;
 
-$url = 'http://digitalsecurityplatform6138.cloudapp.net/api/';
+$url = 'http://digitalsecurity-7407mm42.cloudapp.net/api/';
 $data = array('apiKey' => $apiKey, 'apiSecret' => $apiSecret, 'URL' => $path);
 
 $options = array(
