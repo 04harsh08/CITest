@@ -27,6 +27,4 @@ if ($result === FALSE) { /* Handle error */ }
 var_dump($result);
 
 
-
-
 ?>
