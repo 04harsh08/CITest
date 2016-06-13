@@ -8,8 +8,6 @@ $file = $argv[6];
 $opt4 = $argv[7];
 $ci = $argv[8];
 
- 
-
 $path = $argv[8]."/job/".getenv('JOB_NAME')."/ws/".$file;
 
 $url = 'http://digitalsecurity-7407mm42.cloudapp.net/api/';
